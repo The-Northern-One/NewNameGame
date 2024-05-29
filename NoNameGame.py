@@ -515,13 +515,13 @@ def mainScreen(turn):
 
 
 while turn < toplay:
-   print(random.choice(spawnRegion.pops).work.Benifits)
-   print(spawnRegion.jobBenifits)
+   #print(random.choice(spawnRegion.pops).work.Benifits)
+   #print(spawnRegion.jobBenifits)
    #print(spawnRegion.resourceProduction)
    #print(spawnRegion.jobBenifits[1])
    turn = mainScreen(turn)
-   for i in spawnRegion.pops:
-       spawnRegion.inhabitants = 1
+   #for i in spawnRegion.pops:
+       #spawnRegion.inhabitants = 1
    
 if win == 1:
     time.sleep(1)
